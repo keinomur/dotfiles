@@ -1,0 +1,202 @@
+# One Half Dark theme colors for ls command
+# Based on the One Half Dark colorscheme
+
+# Basic file types
+RESET                 0          # global default
+NORMAL                00         # normal file
+FILE                  00         # regular file
+DIR                   1;34       # directory (bright blue)
+LINK                  1;36       # symbolic link (bright cyan)
+FIFO                  40;33      # pipe
+SOCK                  1;35       # socket
+DOOR                  1;35       # door
+BLK                   40;33;1    # block device driver
+CHR                   40;33;1    # character device driver
+ORPHAN                40;31;1    # orphaned symlink
+MISSING               40;31;1    # missing file
+SETUID                37;41      # file that is setuid (u+s)
+SETGID                30;43      # file that is setgid (g+s)
+CAPABILITY            30;41      # file with capability
+STICKY_OTHER_WRITABLE 30;42      # directory that is sticky and other-writable (+t,o+w)
+OTHER_WRITABLE        34;42      # directory that is other-writable (o+w) and not sticky
+STICKY                37;44      # directory with the sticky bit set (+t) and not other-writable
+
+# Archives and compressed files (red)
+*.tar                 1;31
+*.tgz                 1;31
+*.arc                 1;31
+*.arj                 1;31
+*.taz                 1;31
+*.lha                 1;31
+*.lz4                 1;31
+*.lzh                 1;31
+*.lzma                1;31
+*.tlz                 1;31
+*.txz                 1;31
+*.tzo                 1;31
+*.t7z                 1;31
+*.zip                 1;31
+*.z                   1;31
+*.dz                  1;31
+*.gz                  1;31
+*.lrz                 1;31
+*.lz                  1;31
+*.lzo                 1;31
+*.xz                  1;31
+*.zst                 1;31
+*.tzst                1;31
+*.bz2                 1;31
+*.bz                  1;31
+*.tbz                 1;31
+*.tbz2                1;31
+*.tz                  1;31
+*.deb                 1;31
+*.rpm                 1;31
+*.jar                 1;31
+*.war                 1;31
+*.ear                 1;31
+*.sar                 1;31
+*.rar                 1;31
+*.alz                 1;31
+*.ace                 1;31
+*.zoo                 1;31
+*.cpio                1;31
+*.7z                  1;31
+*.rz                  1;31
+*.cab                 1;31
+*.wim                 1;31
+*.swm                 1;31
+*.dwm                 1;31
+*.esd                 1;31
+
+# Image files (magenta)
+*.jpg                 1;35
+*.jpeg                1;35
+*.mjpg                1;35
+*.mjpeg               1;35
+*.gif                 1;35
+*.bmp                 1;35
+*.pbm                 1;35
+*.pgm                 1;35
+*.ppm                 1;35
+*.tga                 1;35
+*.xbm                 1;35
+*.xpm                 1;35
+*.tif                 1;35
+*.tiff                1;35
+*.png                 1;35
+*.svg                 1;35
+*.svgz                1;35
+*.mng                 1;35
+*.pcx                 1;35
+*.mov                 1;35
+*.mpg                 1;35
+*.mpeg                1;35
+*.m2v                 1;35
+*.mkv                 1;35
+*.webm                1;35
+*.webp                1;35
+*.ogm                 1;35
+*.mp4                 1;35
+*.m4v                 1;35
+*.mp4v                1;35
+*.vob                 1;35
+*.qt                  1;35
+*.nuv                 1;35
+*.wmv                 1;35
+*.asf                 1;35
+*.rm                  1;35
+*.rmvb                1;35
+*.flc                 1;35
+*.avi                 1;35
+*.fli                 1;35
+*.flv                 1;35
+*.gl                  1;35
+*.dl                  1;35
+*.xcf                 1;35
+*.xwd                 1;35
+*.yuv                 1;35
+*.cgm                 1;35
+*.emf                 1;35
+
+# Audio files (cyan)
+*.aac                 1;36
+*.au                  1;36
+*.flac                1;36
+*.m4a                 1;36
+*.mid                 1;36
+*.midi                1;36
+*.mka                 1;36
+*.mp3                 1;36
+*.mpc                 1;36
+*.ogg                 1;36
+*.ra                  1;36
+*.wav                 1;36
+*.oga                 1;36
+*.opus                1;36
+*.spx                 1;36
+*.xspf                1;36
+
+# Document files (yellow)
+*.pdf                 1;33
+*.ps                  1;33
+*.txt                 1;33
+*.patch               1;33
+*.diff                1;33
+*.log                 1;33
+*.tex                 1;33
+*.doc                 1;33
+*.docx                1;33
+*.ppt                 1;33
+*.pptx                1;33
+*.xls                 1;33
+*.xlsx                1;33
+*.odt                 1;33
+*.ods                 1;33
+*.odp                 1;33
+*.rtf                 1;33
+
+# Source code files (green)
+*.c                   1;32
+*.cpp                 1;32
+*.cc                  1;32
+*.cxx                 1;32
+*.h                   1;32
+*.hpp                 1;32
+*.py                  1;32
+*.rb                  1;32
+*.js                  1;32
+*.ts                  1;32
+*.go                  1;32
+*.rs                  1;32
+*.java                1;32
+*.php                 1;32
+*.pl                  1;32
+*.sh                  1;32
+*.bash                1;32
+*.zsh                 1;32
+*.fish                1;32
+*.vim                 1;32
+*.html                1;32
+*.xml                 1;32
+*.json                1;32
+*.yaml                1;32
+*.yml                 1;32
+*.toml                1;32
+*.ini                 1;32
+*.conf                1;32
+*.cfg                 1;32
+*.md                  1;32
+*.markdown            1;32
+*.css                 1;32
+*.scss                1;32
+*.sass                1;32
+*.less                1;32
+*.sql                 1;32
+
+# Executable files (bright green)
+*.exe                 1;32
+*.com                 1;32
+*.btm                 1;32
+*.bat                 1;32
+*.cmd                 1;32
